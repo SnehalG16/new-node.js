@@ -1,0 +1,162 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #fdf6e3; /* Light cream background */
+}
+
+.products div {
+  background-color: #ffffff; /* Soft white cards */
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.products img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid #ffd1dc; /* Pastel pink border */
+}
+
+.products h4 {
+  margin: 5px 0;
+  color: #333333; /* Neutral text color */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.products button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #88d4ab; /* Soft green */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.products button:hover {
+  background-color: #6cbf8d;
+  transform: translateY(-3px);
+}
+
+.products button a {
+  text-decoration: none;
+  color: white;
+}
+
+.products button:last-child {
+  background-color: #ffabab; /* Soft red for danger */
+}
+
+.products button:last-child:hover {
+  background-color: #ff8989;
+}
+
+.about {
+  padding: 20px;
+  margin: 15% auto;
+  max-width: 800px;
+  background-color: #fff1e6; /* Soft pastel peach */
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444444; /* Neutral dark gray */
+  font-weight: 400;
+  text-align: justify;
+}
+
+h4:first-letter {
+  font-size: 28px;
+  font-weight: 700;
+  color: #88d4ab; /* Match the green button */
+  margin-right: 5px;
+}
+
+.edit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fdf6e3; /* Light cream background */
+  padding: 20px;
+}
+
+.edit-user-form {
+  margin-left: 20%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #444444; /* Neutral dark gray */
+  font-size: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #666666; /* Medium gray */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+select {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff; /* Soft white */
+  color: #333333; /* Neutral dark gray */
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #88d4ab;
+  box-shadow: 0 0 5px #88d4ab;
+  outline: none;
+}
+
+button[type="submit"] {
+  display: block;
+  padding: 10px;
+  background-color: #ffd166; /* Pastel yellow */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffbc4a;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 15px 20px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
