@@ -1,0 +1,88 @@
+button {
+    border: 2px solid black;
+    background-color: #fff;
+    color:black;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    position: sticky;
+    bottom: 0%;
+}
+
+form {
+    color: black;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.form
+{
+    margin: 0% 25%;
+    padding: 5% 9%;
+    background-color: cadetblue;
+}
+
+input
+{
+    width: 80%;
+}
+
+.form input,.form textarea {
+    height: 35px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.movie{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} 
+
+.card {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.movies
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movies  div
+{
+    width: 33%;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0%;
+}
+
+.image
+{
+    height: 80vh;
+    width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url("https://tse4.mm.bing.net/th?id=OIP.KiQ-dkeo8QRE6YozAAFsWwHaDt&pid=Api&P=0&h=180");
+}
+
+.navbar a
+{
+    color: black;
+}
